@@ -5,15 +5,20 @@
 ## 🖼️ The Picture
 
 ```mermaid
-flowchart LR
-    I["🍎 Input<br/>photo"] --> H1["🕸️ Layer 1"]
-    H1 --> H2["🕸️ Layer 2"]
-    H2 --> G["🤔 Guess: 'orange'"]
-    G --> L["📏 Loss<br/>truth was 'apple'<br/>error = big"]
-    L -.->|"blame flows back"| H2
-    H2 -.->|"blame flows back"| H1
+flowchart TB
+    subgraph FWD["➡️ Forward pass: make a guess"]
+    direction LR
+    I["🍎 Input<br/>photo"] --> H1["🕸️ Layer 1"] --> H2["🕸️ Layer 2"] --> G["🤔 Guess<br/>'orange'"]
+    end
+    G --> L["📏 Loss: how wrong was it?<br/>truth was 'apple'"]
+    L --> B2
+    subgraph BWD["⬅️ Backward pass: blame flows back, every knob gets nudged"]
+    direction RL
+    B2["🔧 Layer 2<br/>weights nudged"] --> B1["🔧 Layer 1<br/>weights nudged"]
+    end
     style G fill:#fef3c7,stroke:#f59e0b,color:#1f2937
     style L fill:#fee2e2,stroke:#ef4444,color:#1f2937
+    style BWD fill:#dbeafe,stroke:#3b82f6,color:#1f2937
 ```
 
 ## 🔧 How it actually works
