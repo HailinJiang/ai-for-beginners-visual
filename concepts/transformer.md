@@ -30,3 +30,4 @@ Every time you use ChatGPT, Claude, Google Translate, or GitHub Copilot, you're 
 - [Attention](attention.md)
 - [LLM](llm.md)
 - [Neural Network](neural-network.md)
+- [Mixture of Experts](mixture-of-experts.md)

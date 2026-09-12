@@ -33,3 +33,4 @@ When you see "Llama 3 8B" vs "Llama 3 70B," the number is the parameter count. T
 - [Neural Network](neural-network.md)
 - [Training vs Inference](training-vs-inference.md)
 - [Quantization](quantization.md)
+- [Mixture of Experts](mixture-of-experts.md)

@@ -34,3 +34,4 @@ The system that recognizes your face to unlock your phone, filters spam out of y
 - [LLM](llm.md)
 - [Training vs Inference](training-vs-inference.md)
 - [Embedding](embedding.md)
+- [Backpropagation](backpropagation.md)

@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Made with Mermaid](https://img.shields.io/badge/diagrams-mermaid-ff3670.svg)](https://mermaid.js.org/)
 [![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-blue.svg)](#-the-concepts)
-[![Concepts](https://img.shields.io/badge/concepts-32-blueviolet.svg)](#-the-concepts)
+[![Concepts](https://img.shields.io/badge/concepts-36-blueviolet.svg)](#-the-concepts)
 [![Stars Welcome](https://img.shields.io/badge/⭐_stars-welcome-gold.svg)](#)
 
 *If this helps you finally "get" AI, drop a ⭐. It helps more people find it.*
@@ -59,39 +59,43 @@ No PhD required. No prior coding needed. Just curiosity.
 | 12 | [👀 Attention](concepts/attention.md) | Highlighting the words that matter most. |
 | 13 | [🌡️ Temperature](concepts/temperature.md) | The creativity dial (safe vs wild). |
 | 14 | [🔗 Chain of Thought](concepts/chain-of-thought.md) | Making the AI "show its work." |
+| 15 | [🧩 Mixture of Experts](concepts/mixture-of-experts.md) | A room of specialists, only two wake up per word. |
 
 ### 🏗️ How it's built & trained
 
 | # | Concept | One-liner |
 |---|---------|-----------|
-| 15 | [👍 RLHF](concepts/rlhf.md) | Teaching AI manners with human thumbs up/down. |
-| 16 | [⚡ GPU](concepts/gpu.md) | The "many hands" chip that does millions of sums at once. |
-| 17 | [📏 Overfitting](concepts/overfitting.md) | Memorizing the answers instead of understanding. |
-| 18 | [🎛️ Parameters / Weights](concepts/parameters-weights.md) | The billions of tiny knobs that store what AI knows. |
-| 19 | [🏛️ Foundation Model](concepts/foundation-model.md) | One giant base brain everything is built on. |
-| 20 | [🗜️ Quantization](concepts/quantization.md) | Shrinking a model to run on your laptop. |
+| 16 | [👍 RLHF](concepts/rlhf.md) | Teaching AI manners with human thumbs up/down. |
+| 17 | [⚡ GPU](concepts/gpu.md) | The "many hands" chip that does millions of sums at once. |
+| 18 | [📏 Overfitting](concepts/overfitting.md) | Memorizing the answers instead of understanding. |
+| 19 | [🎛️ Parameters / Weights](concepts/parameters-weights.md) | The billions of tiny knobs that store what AI knows. |
+| 20 | [🏛️ Foundation Model](concepts/foundation-model.md) | One giant base brain everything is built on. |
+| 21 | [🗜️ Quantization](concepts/quantization.md) | Shrinking a model to run on your laptop. |
+| 22 | [🔙 Backpropagation](concepts/backpropagation.md) | How the machine learns from being wrong. |
 
 ### 🛠️ Using AI: tools & applications
 
 | # | Concept | One-liner |
 |---|---------|-----------|
-| 21 | [🤖 AI Agent](concepts/ai-agent.md) | An AI that *does* things, not just chats. |
-| 22 | [🗄️ Vector Database](concepts/vector-database.md) | A library that files things by meaning. |
-| 23 | [🎨 Diffusion Model](concepts/diffusion-model.md) | Sculpting images out of pure noise. |
-| 24 | [🎭 GAN](concepts/gan.md) | A forger vs a detective, until the fakes look real. |
-| 25 | [🪪 System Prompt](concepts/system-prompt.md) | The AI's hidden, always-on job description. |
-| 26 | [🌈 Multimodal](concepts/multimodal.md) | An AI that can see, hear, and read. |
-| 27 | [🛠️ Tool Calling](concepts/tool-calling.md) | How AI reaches out and uses real tools. |
+| 23 | [🤖 AI Agent](concepts/ai-agent.md) | An AI that *does* things, not just chats. |
+| 24 | [🗄️ Vector Database](concepts/vector-database.md) | A library that files things by meaning. |
+| 25 | [🎨 Diffusion Model](concepts/diffusion-model.md) | Sculpting images out of pure noise. |
+| 26 | [🎭 GAN](concepts/gan.md) | A forger vs a detective, until the fakes look real. |
+| 27 | [🪪 System Prompt](concepts/system-prompt.md) | The AI's hidden, always-on job description. |
+| 28 | [🌈 Multimodal](concepts/multimodal.md) | An AI that can see, hear, and read. |
+| 29 | [🛠️ Tool Calling](concepts/tool-calling.md) | How AI reaches out and uses real tools. |
+| 30 | [🔌 MCP (Model Context Protocol)](concepts/mcp.md) | The USB-C port for plugging tools into AI. |
+| 31 | [🎯 Zero-shot vs Few-shot](concepts/zero-shot-few-shot.md) | Just ask, or show a few examples first. |
 
 ### ⚖️ Trust & limits: the fine print
 
 | # | Concept | One-liner |
 |---|---------|-----------|
-| 28 | [⚖️ Bias](concepts/bias.md) | AI inherits the unfairness in its data. |
-| 29 | [📅 Knowledge Cutoff](concepts/knowledge-cutoff.md) | Why AI doesn't know recent news. |
-| 30 | [🕵️ Prompt Injection](concepts/prompt-injection.md) | Hiding sneaky instructions to trick an AI. |
-| 31 | [🧭 Alignment & Guardrails](concepts/alignment.md) | Teaching AI what *not* to do. |
-| 32 | [🌅 AGI](concepts/agi.md) | The hypothetical "human-level at everything" AI. |
+| 32 | [⚖️ Bias](concepts/bias.md) | AI inherits the unfairness in its data. |
+| 33 | [📅 Knowledge Cutoff](concepts/knowledge-cutoff.md) | Why AI doesn't know recent news. |
+| 34 | [🕵️ Prompt Injection](concepts/prompt-injection.md) | Hiding sneaky instructions to trick an AI. |
+| 35 | [🧭 Alignment & Guardrails](concepts/alignment.md) | Teaching AI what *not* to do. |
+| 36 | [🌅 AGI](concepts/agi.md) | The hypothetical "human-level at everything" AI. |
 
 ---
 
@@ -133,7 +137,7 @@ Know a concept we're missing? Have a better analogy? **We'd love your help.**
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the simple template: adding a concept takes about 10 minutes.
 
-Good first additions: *Reinforcement Learning, Mixture of Experts (MoE), MCP, Deepfake, Backpropagation, Loss Function, Zero-shot vs Few-shot, Speech-to-Text / Text-to-Speech, Open vs Closed Models, AI Ethics.*
+Good first additions: *Reinforcement Learning, Deepfake, Loss Function, Speech-to-Text / Text-to-Speech, Open vs Closed Models, Distillation, Batch Size & Epochs, AI Ethics.*
 
 ---
 

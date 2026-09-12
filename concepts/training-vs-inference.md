@@ -34,3 +34,4 @@ When a company "releases a new model," they finished an expensive training run. 
 - [Neural Network](neural-network.md)
 - [Fine-tuning](fine-tuning.md)
 - [LLM](llm.md)
+- [Backpropagation](backpropagation.md)

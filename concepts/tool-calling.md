@@ -31,3 +31,4 @@ When ChatGPT browses the web for current info, runs Python to crunch numbers, or
 - [AI Agent](ai-agent.md)
 - [LLM](llm.md)
 - [Hallucination](hallucination.md)
+- [MCP (Model Context Protocol)](mcp.md)

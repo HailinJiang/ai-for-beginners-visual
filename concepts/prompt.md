@@ -31,3 +31,4 @@ Asking ChatGPT "give me dinner ideas" gets generic suggestions. Asking "give me 
 - [LLM](llm.md)
 - [Context Window](context-window.md)
 - [Hallucination](hallucination.md)
+- [Zero-shot vs Few-shot](zero-shot-few-shot.md)
